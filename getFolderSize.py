@@ -32,7 +32,8 @@ def get_size(path) -> int:
 
 
 if __name__ == '__main__':
-    path=u'F:/music/'  #由用户指定文件路径
+    # NOTE: 由用户指定文件路径
+    path=u'F:/music/'  
     folderSizeList = []
     # NOTE: 遍历目标文件夹下二级目录
     for folderName in os.listdir(path):
